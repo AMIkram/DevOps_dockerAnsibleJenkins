@@ -1,5 +1,5 @@
 FROM  ubuntu:latest
-MAINTAINER vikashashoke@gmail.com
+MAINTAINER ikramamine661@gmail.com
 RUN yum install -y httpd \
  zip\
  unzip
