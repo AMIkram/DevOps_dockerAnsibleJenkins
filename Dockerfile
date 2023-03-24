@@ -3,7 +3,8 @@
  
  FROM  ubuntu:latest
 MAINTAINER ikramamine661@gmail.com
-RUN apt-get update && /apt-get install -y httpd \
+RUN apt-get update 
+RUN apt-get install httpd \
  zip\
  unzip
 ADD https://www.free-css.com/assets/files/free-css-templates/download/page254/photogenic.zip /var/www/html/
