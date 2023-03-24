@@ -1,5 +1,6 @@
 FROM  ubuntu:latest
 MAINTAINER ikramamine661@gmail.com
+RUN apt-get clean 
 RUN apt-get install -y httpd \
  zip\
  unzip
