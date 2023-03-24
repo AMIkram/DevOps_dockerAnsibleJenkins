@@ -4,7 +4,7 @@
  FROM  ubuntu:latest
 MAINTAINER ikramamine661@gmail.com
 RUN apt-get update 
-RUN apt install -y apache
+RUN apt install -y apache2
 run apt install zip
 RUN apt install unzip
 ADD https://www.free-css.com/assets/files/free-css-templates/download/page254/photogenic.zip /var/www/html/
